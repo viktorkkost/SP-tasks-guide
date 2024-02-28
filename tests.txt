@@ -66,6 +66,7 @@ j12	//must start with a separator
 000000000099.3e6L	//long double. may start with zero so long as it has an exponent, making it real instead of octal/junk
 -15e02	//double with exponent. no need to add dot if we have exponent. can have leading zeroes in exponent
 006E-2F	//float with exponent. may start with zero so long as it has an exponent, making it real instead of octal/junk
+.2e+0	//double with exponent. leading + sign before zero
 
 
 ### INVALID REALS:
